@@ -15,7 +15,7 @@ function Tiket() {
     <section class="tiket">
       <div class="tiket-inner">
         <div class="tiket-header">
-          <h2 class="tiket-title">dkd켓 랭킹</h2>
+          <h2 class="tiket-title">티켓 랭킹</h2>
           <span class="tiket-txt">오늘 뭐볼까? 지금 HOT한 공연</span>
         </div>
 
