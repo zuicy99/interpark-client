@@ -88,7 +88,7 @@ function Recommend() {
 
   return (
     <SectionTag pt={0} pb={90}>
-      <InnerArea h={0}>
+      <InnerArea>
         <div className="recommend-header">
           <h2 className="recommend-title">쇼핑추천</h2>
           <span className="recommend-txt">

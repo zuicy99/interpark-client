@@ -8,6 +8,5 @@ export const SectionTag = styled.section`
 export const InnerArea = styled.div`
   position: relative;
   width: 1280px;
-  height: ${(props) => props.h};
   margin: 0 auto;
 `;

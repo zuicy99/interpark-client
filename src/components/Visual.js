@@ -103,7 +103,7 @@ function Visual() {
 
   return (
     <SectionTag pt={30} pb={80}>
-      <InnerArea h={345}>
+      <InnerArea style={{ height: 345 }}>
         <Swiper
           slidesPerView={2}
           spaceBetween={24}
