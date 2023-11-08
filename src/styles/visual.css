@@ -55,8 +55,7 @@
   height: 18px;
   display: block;
   margin: 0 auto; /* 중간배치 */
-  background: url("http://localhost:3000/images/slider_arrow.svg") no-repeat
-    center;
+  background: url("../images/slider_arrow.svg") no-repeat center;
   transform: rotateY(180deg); /* 사진 반전 y축으로 반전 */
 }
 
@@ -84,6 +83,5 @@
   height: 18px;
   display: block;
   margin: 0 auto; /* 중간배치 */
-  background: url("http://localhost:3000/images/slider_arrow.svg") no-repeat
-    center;
+  background: url("../images/slider_arrow.svg") no-repeat center;
 }

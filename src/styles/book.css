@@ -1,0 +1,165 @@
+.book {
+  position: relative;
+  padding: 30px 0px 60px;
+  margin: 0px 12px;
+  width: 1280px;
+  height: 714px;
+  margin: 0 auto;
+}
+.book-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto; /* 중앙에 배치 */
+}
+.book-header {
+  position: relative;
+}
+.book-tit {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+.book-txt {
+  position: relative;
+  display: block;
+  font-size: 1.8rem;
+  color: #a7a0a7;
+  text-align: center;
+}
+
+/* --------도서 카테고리 메인/카테고리/리스트----------- */
+.book-main {
+  position: relative;
+  margin: 25px 0;
+}
+.book-category {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.book-list {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.book-list li {
+  position: relative;
+  gap: 4px;
+}
+.book-cate-bt {
+  position: relative;
+  display: block;
+
+  padding: 0px 20px;
+
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 42px;
+  color: #111;
+  cursor: pointer;
+  border-radius: 44px;
+}
+.book-cate-bt-active {
+  position: relative;
+  border: 1px solid transparent;
+  background-color: #333;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* --------슬라이드 사진----------- */
+.book-slide-wrap {
+  position: relative;
+  margin-top: 23px;
+  width: 1280px;
+  height: 402px;
+}
+.book-slide-item {
+  position: relative;
+  height: 392px;
+  overflow: hidden;
+}
+.book-link {
+  position: relative;
+}
+
+.book-img {
+  position: relative;
+}
+
+.book-img img {
+  position: relative;
+  width: 232px;
+  height: 334px;
+  object-fit: cover;
+}
+
+.book-info {
+  position: relative;
+  height: calc(100% - 344px);
+  padding-top: 10px;
+  text-align: center;
+}
+
+.book-good-list {
+  position: relative;
+}
+.book-good-info-tit {
+  display: -webkit-box;
+  overflow: hidden;
+  word-break: break-all;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.book-good-info-price {
+  position: relative;
+  /* span은  */
+  display: block;
+  color: #111;
+  font-size: 2rem;
+
+  margin-top: 4px;
+}
+.book-good-info-price em {
+  position: relative;
+  font-weight: 700;
+  font-style: normal;
+}
+.book-swiper-bt-prev {
+  transform: translate(-50%, calc(-50% + -30px)) !important;
+}
+.book-swiper-bt-next {
+  transform: translate(50%, calc(-50% + -30px)) !important;
+}
+
+.book-footer {
+  position: relative;
+  padding: 0px 30px;
+}
+.book-footer-bt {
+  position: relative;
+  display: block;
+  margin: 20px auto;
+
+  padding: 0px 39px;
+  line-height: 42px;
+  width: 198px;
+  height: 56px;
+  border: 1px solid #e5e5e5;
+  border-radius: 44px;
+  background-color: #fff;
+
+  font-size: 1.4rem;
+  color: #111;
+  font-weight: 600;
+  cursor: pointer;
+}
