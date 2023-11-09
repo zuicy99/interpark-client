@@ -440,7 +440,9 @@ function Tour() {
           </div>
         </div>
 
-        <div class="recommend-footer"></div>
+        <div class="recommend-footer">
+          <button class="tour-footer-bt">투어 홈 바로가기</button>
+        </div>
       </div>
     </section>
   );

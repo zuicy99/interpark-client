@@ -1,28 +1,30 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
+import { HeaderTopLeft } from "../styled/header";
 import "../styles/header.css";
+import styled from "@emotion/styled";
 function Header() {
   // js 코드 자리
+
   return (
     <header className="header">
-      {/* <!-- 레이아웃: div --> */}
+      {/* <!-- 레이아웃 : div --> */}
       <div className="header-inner">
         <div className="header-top">
-          <div className="header-top-left">
+          <HeaderTopLeft w="625" h="50">
             <a href="index.html" className="logo"></a>
             {/* <!-- 검색은 div 하나 주자 --> */}
             <div className="header-search">
+              {/* <!-- 사용자가 데이터를 입력한다. --> */}
               <form className="search-form">
-                {/* <!-- 사용자가 데이터를 입력한다. --> */}
                 <input type="text" className="search-word" />
                 <input type="button" value="검색" className="search-bt" />
               </form>
             </div>
-          </div>
+          </HeaderTopLeft>
 
           <div className="header-top-right">
             <ul className="member-menu">
-              {/* <!-- ul밑에는 li만 가능 --> */}
               <li>
                 <a href="#">로그인</a>
               </li>
@@ -79,10 +81,7 @@ function Header() {
               </a>
             </li>
           </ul>
-
-          {/* <!-- 영역 나눌때는 section/ 레이아웃 잡을 때 div /작은 레이아웃 영역 span --> */}
-
-          {/* <!-- 오늘의 이벤트 메뉴 --> */}
+          {/* <!-- 오늘이벤트 메뉴 --> */}
           <ul className="header-today-menu">
             <li>
               <a href="#">

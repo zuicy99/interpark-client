@@ -399,7 +399,9 @@ function Tiket() {
           </div>
         </div>
 
-        <div class="tiket-footer"></div>
+        <div class="tiket-footer">
+          <button class="book-footer-bt">티켓 홈 바로가기</button>
+        </div>
       </div>
     </section>
   );
