@@ -25,7 +25,9 @@ function Recommend() {
   // 외부 데이터 연동하기 (axios 이용)
   const axiosJsonData = () => {
     axios
-      .get("http://localhost:4000/recommend")
+      .get(
+        "https://port-0-interpark-server-1d6du62alowaonof.sel5.cloudtype.app/recommend"
+      )
       .then(function (res) {
         console.log(res.data);
 

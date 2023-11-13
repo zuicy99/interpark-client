@@ -4,7 +4,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import "../styles/tiket.css";
+import "../styles/tour.css";
 import "../styles/common.css";
 import { useRef } from "react";
 
